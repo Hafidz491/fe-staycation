@@ -29,3 +29,14 @@ body {
 .slider-container {
   position: relative; /* Pastikan slider-container memiliki posisi relative */
 }
+
+/* HOUSES */
+.content-item {
+  width: 230px !important;
+}
+
+@media (min-width: 1400px) {
+  .content-item {
+    width: 395px !important;
+  }
+}
