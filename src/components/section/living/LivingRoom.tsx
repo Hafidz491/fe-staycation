@@ -1,12 +1,12 @@
 import Slider from "react-slick";
-import { housesPoduct } from "../../../constants/constants";
+import { livingRoom } from "../../../constants/constants";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import "../../../index.css";
 
-export const Houses = () => {
+export const LivingRoom = () => {
   const settings = {
     dots: false,
     infinite: true,
@@ -22,12 +22,12 @@ export const Houses = () => {
   return (
     <div className="w-12/12 px-[150px] my-[70px]">
       <h1 className="text-3xl font-medium text-secondColor mb-[20px]">
-        Houses with beauty backyard
+        Hotels with large living room
       </h1>
 
       <div>
         <Slider {...settings}>
-          {housesPoduct.map((item) => (
+          {livingRoom.map((item) => (
             <div
               key={item.id}
               className="content-item relative overflow-hidden  lg:h-[230px] 2xl:h-[330px]
