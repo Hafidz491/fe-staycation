@@ -260,7 +260,7 @@ export const livingRoom: itemProduct[] = [
   {
     id: 6,
     img: livingImg6,
-    tittle: "Quiet Place",
+    tittle: "Quite Place",
     city: "Yogyakarta, Indonesia",
     description:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
