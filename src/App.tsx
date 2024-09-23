@@ -5,6 +5,7 @@ import { MostPicked } from "./components/section/mostpick/MostPicked";
 import { LivingRoom } from "./components/section/living/LivingRoom";
 import { Kitchen } from "./components/section/kitchen/Kitchen";
 import { Story } from "./components/story/Story";
+import { Footer } from "./components/footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <LivingRoom />
       <Kitchen />
       <Story />
+      <Footer />
     </>
   );
 }
